@@ -1,0 +1,2332 @@
+
+
+Processing OauthController#start (for 127.0.0.1 at 2010-04-24 01:37:56) [GET]
+
+NameError (uninitialized constant OauthController::OAuth2):
+  app/controllers/oauth_controller.rb:23:in `client'
+  app/controllers/oauth_controller.rb:4:in `start'
+
+Rendered rescues/_trace (86.9ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing OauthController#start (for 127.0.0.1 at 2010-04-24 01:39:01) [GET]
+Redirected to https://graph.facebook.com/oauth/authorize?client_id=ed58e98e26516e305eab757c5d269c74&type=web_server&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth%2Fcallback
+Completed in 101ms (DB: 0) | 302 Found [http://localhost/oauth/start]
+
+
+Processing OauthController#start (for 127.0.0.1 at 2010-04-24 01:40:55) [GET]
+Redirected to https://graph.facebook.com/oauth/authorize?client_id=ed58e98e26516e305eab757c5d269c74&type=web_server&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth%2Fcallback
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/oauth/start]
+
+
+Processing OauthController#start (for 127.0.0.1 at 2010-04-24 01:58:31) [GET]
+Redirected to https://graph.facebook.com/oauth/authorize?client_id=ed58e98e26516e305eab757c5d269c74&type=web_server&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth%2Fcallback
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/oauth/start]
+
+
+Processing OauthController#start (for 127.0.0.1 at 2010-04-24 02:19:01) [GET]
+Redirected to https://graph.facebook.com/oauth/authorize?client_id=111604162209107&type=web_server&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth%2Fcallback
+Completed in 102ms (DB: 0) | 302 Found [http://localhost/oauth/start]
+
+
+Processing OauthController#callback (for 127.0.0.1 at 2010-04-24 02:19:34) [GET]
+  Parameters: {"code"=>"2.9kLUzuP6rMf4jHDQohqKQA__.3600.1272060000-697049615|svMTNtB0o3GD_T8S8UVFvh2K7-w."}
+Completed in 2234ms (View: 1, DB: 0) | 200 OK [http://localhost/oauth/callback?code=2.9kLUzuP6rMf4jHDQohqKQA__.3600.1272060000-697049615%7CsvMTNtB0o3GD_T8S8UVFvh2K7-w.]
+
+
+Processing OauthController#start (for 127.0.0.1 at 2010-04-24 02:19:48) [GET]
+Redirected to https://graph.facebook.com/oauth/authorize?client_id=111604162209107&type=web_server&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth%2Fcallback
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/oauth/start]
+
+
+Processing OauthController#callback (for 127.0.0.1 at 2010-04-24 02:19:51) [GET]
+  Parameters: {"code"=>"2.9kLUzuP6rMf4jHDQohqKQA__.3600.1272060000-697049615|svMTNtB0o3GD_T8S8UVFvh2K7-w."}
+Completed in 2308ms (View: 1, DB: 0) | 200 OK [http://localhost/oauth/callback?code=2.9kLUzuP6rMf4jHDQohqKQA__.3600.1272060000-697049615%7CsvMTNtB0o3GD_T8S8UVFvh2K7-w.]
+
+
+Processing OauthController#callback (for 127.0.0.1 at 2010-04-24 02:20:13) [GET]
+  Parameters: {"code"=>"2.9kLUzuP6rMf4jHDQohqKQA__.3600.1272060000-697049615|svMTNtB0o3GD_T8S8UVFvh2K7-w."}
+Completed in 3362ms (View: 1, DB: 0) | 200 OK [http://localhost/oauth/callback?code=2.9kLUzuP6rMf4jHDQohqKQA__.3600.1272060000-697049615%7CsvMTNtB0o3GD_T8S8UVFvh2K7-w.]
+
+
+Processing OauthController#start (for 127.0.0.1 at 2010-04-24 02:24:01) [GET]
+Redirected to https://graph.facebook.com/oauth/authorize?client_id=111604162209107&type=web_server&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth%2Fcallback
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/oauth/start]
+
+
+Processing OauthController#callback (for 127.0.0.1 at 2010-04-24 02:24:08) [GET]
+  Parameters: {"code"=>"2.9kLUzuP6rMf4jHDQohqKQA__.3600.1272060000-697049615|svMTNtB0o3GD_T8S8UVFvh2K7-w."}
+
+ActionView::MissingTemplate (Missing template oauth/callback.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing OauthController#callback (for 127.0.0.1 at 2010-04-24 02:25:31) [GET]
+  Parameters: {"code"=>"2.9kLUzuP6rMf4jHDQohqKQA__.3600.1272060000-697049615|svMTNtB0o3GD_T8S8UVFvh2K7-w."}
+
+NameError (undefined local variable or method `access_token' for #<OauthController:0x102c5a2f8>):
+  app/controllers/oauth_controller.rb:14:in `callback'
+
+Rendered rescues/_trace (93.7ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing OauthController#start (for 127.0.0.1 at 2010-04-24 02:25:45) [GET]
+Redirected to https://graph.facebook.com/oauth/authorize?client_id=111604162209107&type=web_server&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth%2Fcallback
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/oauth/start]
+
+
+Processing OauthController#callback (for 127.0.0.1 at 2010-04-24 02:25:47) [GET]
+  Parameters: {"code"=>"2.9kLUzuP6rMf4jHDQohqKQA__.3600.1272060000-697049615|svMTNtB0o3GD_T8S8UVFvh2K7-w."}
+
+NameError (undefined local variable or method `access_token' for #<OauthController:0x102f58a40>):
+  app/controllers/oauth_controller.rb:14:in `callback'
+
+Rendered rescues/_trace (29.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing OauthController#callback (for 127.0.0.1 at 2010-04-24 02:26:04) [GET]
+  Parameters: {"code"=>"2.9kLUzuP6rMf4jHDQohqKQA__.3600.1272060000-697049615|svMTNtB0o3GD_T8S8UVFvh2K7-w."}
+Rendering oauth/callback
+Completed in 2319ms (View: 36, DB: 0) | 200 OK [http://localhost/oauth/callback?code=2.9kLUzuP6rMf4jHDQohqKQA__.3600.1272060000-697049615%7CsvMTNtB0o3GD_T8S8UVFvh2K7-w.]
+
+
+Processing OauthController#callback (for 127.0.0.1 at 2010-04-24 02:27:08) [GET]
+  Parameters: {"code"=>"2.9kLUzuP6rMf4jHDQohqKQA__.3600.1272060000-697049615|svMTNtB0o3GD_T8S8UVFvh2K7-w."}
+Rendering oauth/callback
+Completed in 3707ms (View: 5, DB: 0) | 200 OK [http://localhost/oauth/callback?code=2.9kLUzuP6rMf4jHDQohqKQA__.3600.1272060000-697049615%7CsvMTNtB0o3GD_T8S8UVFvh2K7-w.]
+
+
+Processing OauthController#callback (for 127.0.0.1 at 2010-04-24 02:27:23) [GET]
+  Parameters: {"code"=>"2.9kLUzuP6rMf4jHDQohqKQA__.3600.1272060000-697049615|svMTNtB0o3GD_T8S8UVFvh2K7-w."}
+Rendering oauth/callback
+Completed in 2541ms (View: 5, DB: 0) | 200 OK [http://localhost/oauth/callback?code=2.9kLUzuP6rMf4jHDQohqKQA__.3600.1272060000-697049615%7CsvMTNtB0o3GD_T8S8UVFvh2K7-w.]
+
+
+Processing OauthController#callback (for 127.0.0.1 at 2010-04-24 02:27:58) [GET]
+  Parameters: {"code"=>"2.9kLUzuP6rMf4jHDQohqKQA__.3600.1272060000-697049615|svMTNtB0o3GD_T8S8UVFvh2K7-w."}
+Rendering oauth/callback
+Completed in 3121ms (View: 5, DB: 0) | 200 OK [http://localhost/oauth/callback?code=2.9kLUzuP6rMf4jHDQohqKQA__.3600.1272060000-697049615%7CsvMTNtB0o3GD_T8S8UVFvh2K7-w.]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (344.7ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (420.8ms)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (25.1ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100423222033)
+  [4;35;1mSQL (164.1ms)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `facebook_id` varchar(255), `access_token` text, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (13.8ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100423222033')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mdescribe `users`[0m
+  [4;36;1mSQL (20.2ms)[0m   [0;1mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-04-24 03:53:16) [GET]
+Rendering oauth/index
+Completed in 50ms (View: 48, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-04-24 03:53:28) [GET]
+Rendering oauth/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#start (for 127.0.0.1 at 2010-04-24 03:53:31) [GET]
+Redirected to https://graph.facebook.com/oauth/authorize?client_id=111604162209107&type=web_server&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth%2Fcallback
+Completed in 89ms (DB: 0) | 302 Found [http://localhost/oauth/start]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-04-24 03:57:13) [GET]
+Rendering oauth/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-04-24 03:57:14) [GET]
+Rendering oauth/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#start (for 127.0.0.1 at 2010-04-24 03:57:16) [GET]
+Redirected to https://graph.facebook.com/oauth/authorize?scope=publish_stream%2C%20offline_access&client_id=111604162209107&type=web_server&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth%2Fcallback
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/oauth/start]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#callback (for 127.0.0.1 at 2010-04-24 03:57:29) [GET]
+  Parameters: {"code"=>"9e1bdb35dcf082043d4d0ed6-1345422648|Q_LEKoaZhe385kCxuVesriWSFNE."}
+Rendering oauth/callback
+Completed in 1635ms (View: 14, DB: 0) | 200 OK [http://localhost/oauth/callback?code=9e1bdb35dcf082043d4d0ed6-1345422648%7CQ_LEKoaZhe385kCxuVesriWSFNE.]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-04-24 04:04:50) [GET]
+Rendering template within layouts/application
+Rendering oauth/index
+Completed in 53ms (View: 52, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-04-24 04:04:53) [GET]
+Rendering template within layouts/application
+Rendering oauth/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#start (for 127.0.0.1 at 2010-04-24 04:04:54) [GET]
+Redirected to https://graph.facebook.com/oauth/authorize?scope=publish_stream%2C%20offline_access&client_id=111604162209107&type=web_server&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth%2Fcallback
+Completed in 47ms (DB: 0) | 302 Found [http://localhost/oauth/start]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#callback (for 127.0.0.1 at 2010-04-24 04:05:20) [GET]
+  Parameters: {"code"=>"9a171144881919f1c25392d3-697049615|Vvl-pqaHsDXKF9xx7vQ2Ocu-q8s."}
+
+NoMethodError (undefined method `token' for nil:NilClass):
+  app/controllers/oauth_controller.rb:15:in `callback'
+
+Rendered rescues/_trace (31.2ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#callback (for 127.0.0.1 at 2010-04-24 04:05:57) [GET]
+  Parameters: {"code"=>"9a171144881919f1c25392d3-697049615|Vvl-pqaHsDXKF9xx7vQ2Ocu-q8s."}
+  [4;36;1mUser Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`access_token` = '111604162209107|9a171144881919f1c25392d3-697049615|tDSUCanN81ApdC_Yeu_V33jix0s.') LIMIT 1[0m
+
+NoMethodError (undefined method `name' for #<String:0x1022ce748>):
+  app/controllers/oauth_controller.rb:19:in `callback'
+
+Rendered rescues/_trace (92.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#callback (for 127.0.0.1 at 2010-04-24 04:06:43) [GET]
+  Parameters: {"code"=>"9a171144881919f1c25392d3-697049615|Vvl-pqaHsDXKF9xx7vQ2Ocu-q8s."}
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`access_token` = '111604162209107|9a171144881919f1c25392d3-697049615|tDSUCanN81ApdC_Yeu_V33jix0s.') LIMIT 1[0m
+
+NoMethodError (undefined method `name' for #<String:0x102f07348>):
+  app/controllers/oauth_controller.rb:19:in `callback'
+
+Rendered rescues/_trace (28.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#callback (for 127.0.0.1 at 2010-04-24 04:07:13) [GET]
+  Parameters: {"code"=>"9a171144881919f1c25392d3-697049615|Vvl-pqaHsDXKF9xx7vQ2Ocu-q8s."}
+  [4;36;1mUser Columns (51.4ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (1.6ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`access_token` = '111604162209107|9a171144881919f1c25392d3-697049615|tDSUCanN81ApdC_Yeu_V33jix0s.') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Create (0.2ms)[0m   [0mINSERT INTO `users` (`name`, `facebook_id`, `created_at`, `updated_at`, `access_token`) VALUES(NULL, 2170695220, '2010-04-23 22:37:15', '2010-04-23 22:37:15', '111604162209107|9a171144881919f1c25392d3-697049615|tDSUCanN81ApdC_Yeu_V33jix0s.')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/oauth/post_auth/1
+Completed in 1921ms (DB: 54) | 302 Found [http://localhost/oauth/callback?code=9a171144881919f1c25392d3-697049615%7CVvl-pqaHsDXKF9xx7vQ2Ocu-q8s.]
+  [4;35;1mSQL (0.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#post_auth (for 127.0.0.1 at 2010-04-24 04:07:15) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering oauth/post_auth
+Completed in 10ms (View: 5, DB: 2) | 200 OK [http://localhost/oauth/post_auth/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#callback (for 127.0.0.1 at 2010-04-24 04:07:42) [GET]
+  Parameters: {"code"=>"2.9kLUzuP6rMf4jHDQohqKQA__.3600.1272060000-697049615|svMTNtB0o3GD_T8S8UVFvh2K7-w."}
+
+OAuth2::HTTPError (Received HTTP 500 when retrieving access token.):
+  /Library/Ruby/Gems/1.8/gems/oauth2-0.0.4/lib/oauth2/client.rb:58:in `request'
+  /Library/Ruby/Gems/1.8/gems/oauth2-0.0.4/lib/oauth2/strategy/web_server.rb:9:in `access_token'
+  app/controllers/oauth_controller.rb:11:in `callback'
+
+Rendered rescues/_trace (31.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-04-24 04:09:08) [GET]
+Rendering template within layouts/application
+Rendering oauth/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-04-24 04:09:09) [GET]
+Rendering template within layouts/application
+Rendering oauth/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#start (for 127.0.0.1 at 2010-04-24 04:09:10) [GET]
+Redirected to https://graph.facebook.com/oauth/authorize?scope=publish_stream%2C%20offline_access&client_id=111604162209107&type=web_server&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth%2Fcallback
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/oauth/start]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#callback (for 127.0.0.1 at 2010-04-24 04:09:15) [GET]
+  Parameters: {"code"=>"9a171144881919f1c25392d3-697049615|Vvl-pqaHsDXKF9xx7vQ2Ocu-q8s."}
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`access_token` = '111604162209107|9a171144881919f1c25392d3-697049615|tDSUCanN81ApdC_Yeu_V33jix0s.') LIMIT 1[0m
+
+NoMethodError (undefined method `name' for #<String:0x102c97680>):
+  app/controllers/oauth_controller.rb:19:in `callback'
+
+Rendered rescues/_trace (95.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-04-24 04:09:54) [GET]
+Rendering template within layouts/application
+Rendering oauth/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-04-24 04:10:14) [GET]
+Rendering template within layouts/application
+Rendering oauth/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-04-24 04:10:14) [GET]
+Rendering template within layouts/application
+Rendering oauth/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#start (for 127.0.0.1 at 2010-04-24 04:10:41) [GET]
+Redirected to https://graph.facebook.com/oauth/authorize?scope=publish_stream%2C%20offline_access&client_id=111604162209107&type=web_server&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth%2Fcallback
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/oauth/start]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#callback (for 127.0.0.1 at 2010-04-24 04:10:43) [GET]
+  Parameters: {"code"=>"9a171144881919f1c25392d3-697049615|Vvl-pqaHsDXKF9xx7vQ2Ocu-q8s."}
+  [4;35;1mUser Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (1.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`access_token` = '111604162209107|9a171144881919f1c25392d3-697049615|tDSUCanN81ApdC_Yeu_V33jix0s.') LIMIT 1[0m
+#<OAuth2::AccessToken:0x102e314a0 @token="111604162209107|9a171144881919f1c25392d3-697049615|tDSUCanN81ApdC_Yeu_V33jix0s.", @client=#<OAuth2::Client:0x102e42188 @site="https://graph.facebook.com", @secret="c950d6ad579ebca5fd30fc1379159dc8", @options={}, @connection=#<Faraday::Connection:0x102e42138 @path_prefix="/", @port=nil, @params={}, @scheme="https", @builder=#<Faraday::Builder:0x102e41fd0 @handlers=[#<Proc:0x0000000102ad54c8@/Library/Ruby/Gems/1.8/gems/faraday-0.3.1/lib/faraday/builder.rb:17>, #<Proc:0x0000000102ad3a88@/Library/Ruby/Gems/1.8/gems/faraday-0.3.1/lib/faraday/builder.rb:47>]>, @host="graph.facebook.com", @parallel_manager=nil, @headers={}>, @id="111604162209107">>
+
+NoMethodError (undefined method `name' for #<String:0x102e09568>):
+  app/controllers/oauth_controller.rb:20:in `callback'
+
+Rendered rescues/_trace (28.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#callback (for 127.0.0.1 at 2010-04-24 04:11:10) [GET]
+  Parameters: {"code"=>"9a171144881919f1c25392d3-697049615|Vvl-pqaHsDXKF9xx7vQ2Ocu-q8s."}
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`access_token` = '111604162209107|9a171144881919f1c25392d3-697049615|tDSUCanN81ApdC_Yeu_V33jix0s.') LIMIT 1[0m
+"{\"id\":\"697049615\",\"name\":\"Tinu Cleatus\",\"first_name\":\"Tinu\",\"last_name\":\"Cleatus\",\"link\":\"http:\\/\\/www.facebook.com\\/tinucleatus\",\"timezone\":5.5,\"verified\":true,\"updated_time\":\"2010-01-08T19:47:06+0000\"}"
+
+NoMethodError (undefined method `name' for #<String:0x102bb8f20>):
+  app/controllers/oauth_controller.rb:20:in `callback'
+
+Rendered rescues/_trace (95.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#callback (for 127.0.0.1 at 2010-04-24 04:12:08) [GET]
+  Parameters: {"code"=>"9a171144881919f1c25392d3-697049615|Vvl-pqaHsDXKF9xx7vQ2Ocu-q8s."}
+  [4;35;1mUser Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`access_token` = '111604162209107|9a171144881919f1c25392d3-697049615|tDSUCanN81ApdC_Yeu_V33jix0s.') LIMIT 1[0m
+"{\"id\":\"697049615\",\"name\":\"Tinu Cleatus\",\"first_name\":\"Tinu\",\"last_name\":\"Cleatus\",\"link\":\"http:\\/\\/www.facebook.com\\/tinucleatus\",\"timezone\":5.5,\"verified\":true,\"updated_time\":\"2010-01-08T19:47:06+0000\"}"
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO `users` (`name`, `facebook_id`, `created_at`, `updated_at`, `access_token`) VALUES('user_json.name', 2172176100, '2010-04-23 22:42:11', '2010-04-23 22:42:11', '111604162209107|9a171144881919f1c25392d3-697049615|tDSUCanN81ApdC_Yeu_V33jix0s.')[0m
+  [4;35;1mSQL (1.7ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/oauth/post_auth/2
+Completed in 2395ms (DB: 4) | 302 Found [http://localhost/oauth/callback?code=9a171144881919f1c25392d3-697049615%7CVvl-pqaHsDXKF9xx7vQ2Ocu-q8s.]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#post_auth (for 127.0.0.1 at 2010-04-24 04:12:11) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mUser Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+Rendering template within layouts/application
+Rendering oauth/post_auth
+Completed in 8ms (View: 2, DB: 2) | 200 OK [http://localhost/oauth/post_auth/2]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-04-24 04:13:12) [GET]
+Rendering template within layouts/application
+Rendering oauth/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (3.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-04-24 04:13:12) [GET]
+Rendering template within layouts/application
+Rendering oauth/index
+Completed in 2ms (View: 1, DB: 3) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#start (for 127.0.0.1 at 2010-04-24 04:13:13) [GET]
+Redirected to https://graph.facebook.com/oauth/authorize?scope=publish_stream%2C%20offline_access&client_id=111604162209107&type=web_server&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth%2Fcallback
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/oauth/start]
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#callback (for 127.0.0.1 at 2010-04-24 04:13:18) [GET]
+  Parameters: {"code"=>"9a171144881919f1c25392d3-697049615|Vvl-pqaHsDXKF9xx7vQ2Ocu-q8s."}
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`access_token` = '111604162209107|9a171144881919f1c25392d3-697049615|tDSUCanN81ApdC_Yeu_V33jix0s.') LIMIT 1[0m
+{"name"=>"Tinu Cleatus", "timezone"=>5.5, "id"=>"697049615", "last_name"=>"Cleatus", "updated_time"=>"2010-01-08T19:47:06+0000", "verified"=>true, "link"=>"http://www.facebook.com/tinucleatus", "first_name"=>"Tinu"}
+
+NoMethodError (undefined method `name' for #<Hash:0x102c120e8>):
+  app/controllers/oauth_controller.rb:20:in `callback'
+
+Rendered rescues/_trace (97.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#callback (for 127.0.0.1 at 2010-04-24 04:13:42) [GET]
+  Parameters: {"code"=>"9a171144881919f1c25392d3-697049615|Vvl-pqaHsDXKF9xx7vQ2Ocu-q8s."}
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`access_token` = '111604162209107|9a171144881919f1c25392d3-697049615|tDSUCanN81ApdC_Yeu_V33jix0s.') LIMIT 1[0m
+{"name"=>"Tinu Cleatus", "timezone"=>5.5, "id"=>"697049615", "last_name"=>"Cleatus", "updated_time"=>"2010-01-08T19:47:06+0000", "verified"=>true, "link"=>"http://www.facebook.com/tinucleatus", "first_name"=>"Tinu"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Create (0.2ms)[0m   [0mINSERT INTO `users` (`name`, `facebook_id`, `created_at`, `updated_at`, `access_token`) VALUES(NULL, 2172609940, '2010-04-23 22:43:44', '2010-04-23 22:43:44', '111604162209107|9a171144881919f1c25392d3-697049615|tDSUCanN81ApdC_Yeu_V33jix0s.')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/oauth/post_auth/3
+Completed in 1622ms (DB: 3) | 302 Found [http://localhost/oauth/callback?code=9a171144881919f1c25392d3-697049615%7CVvl-pqaHsDXKF9xx7vQ2Ocu-q8s.]
+  [4;35;1mSQL (0.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#post_auth (for 127.0.0.1 at 2010-04-24 04:13:44) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+Rendering template within layouts/application
+Rendering oauth/post_auth
+Completed in 7ms (View: 2, DB: 2) | 200 OK [http://localhost/oauth/post_auth/3]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-04-24 04:14:08) [GET]
+Rendering template within layouts/application
+Rendering oauth/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#start (for 127.0.0.1 at 2010-04-24 04:14:15) [GET]
+Redirected to https://graph.facebook.com/oauth/authorize?scope=publish_stream%2C%20offline_access&client_id=111604162209107&type=web_server&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth%2Fcallback
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/oauth/start]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#callback (for 127.0.0.1 at 2010-04-24 04:14:17) [GET]
+  Parameters: {"code"=>"9a171144881919f1c25392d3-697049615|Vvl-pqaHsDXKF9xx7vQ2Ocu-q8s."}
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`access_token` = '111604162209107|9a171144881919f1c25392d3-697049615|tDSUCanN81ApdC_Yeu_V33jix0s.') LIMIT 1[0m
+{"name"=>"Tinu Cleatus", "timezone"=>5.5, "id"=>"697049615", "last_name"=>"Cleatus", "updated_time"=>"2010-01-08T19:47:06+0000", "verified"=>true, "link"=>"http://www.facebook.com/tinucleatus", "first_name"=>"Tinu"}
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO `users` (`name`, `facebook_id`, `created_at`, `updated_at`, `access_token`) VALUES('Tinu Cleatus', 2171023660, '2010-04-23 22:44:20', '2010-04-23 22:44:20', '111604162209107|9a171144881919f1c25392d3-697049615|tDSUCanN81ApdC_Yeu_V33jix0s.')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/oauth/post_auth/4
+Completed in 2376ms (DB: 3) | 302 Found [http://localhost/oauth/callback?code=9a171144881919f1c25392d3-697049615%7CVvl-pqaHsDXKF9xx7vQ2Ocu-q8s.]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#post_auth (for 127.0.0.1 at 2010-04-24 04:14:20) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 4) [0m
+Rendering template within layouts/application
+Rendering oauth/post_auth
+Completed in 6ms (View: 1, DB: 2) | 200 OK [http://localhost/oauth/post_auth/4]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#post_auth (for 127.0.0.1 at 2010-04-24 04:14:39) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (1.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 4) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find User with ID=4):
+  app/controllers/oauth_controller.rb:35:in `post_auth'
+
+Rendered rescues/_trace (94.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-04-24 04:14:41) [GET]
+Rendering template within layouts/application
+Rendering oauth/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-04-24 04:14:42) [GET]
+Rendering template within layouts/application
+Rendering oauth/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#start (for 127.0.0.1 at 2010-04-24 04:14:44) [GET]
+Redirected to https://graph.facebook.com/oauth/authorize?scope=publish_stream%2C%20offline_access&client_id=111604162209107&type=web_server&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth%2Fcallback
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/oauth/start]
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#callback (for 127.0.0.1 at 2010-04-24 04:14:46) [GET]
+  Parameters: {"code"=>"9a171144881919f1c25392d3-697049615|Vvl-pqaHsDXKF9xx7vQ2Ocu-q8s."}
+  [4;36;1mUser Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`access_token` = '111604162209107|9a171144881919f1c25392d3-697049615|tDSUCanN81ApdC_Yeu_V33jix0s.') LIMIT 1[0m
+{"name"=>"Tinu Cleatus", "timezone"=>5.5, "id"=>"697049615", "last_name"=>"Cleatus", "updated_time"=>"2010-01-08T19:47:06+0000", "verified"=>true, "link"=>"http://www.facebook.com/tinucleatus", "first_name"=>"Tinu"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Create (0.2ms)[0m   [0mINSERT INTO `users` (`name`, `facebook_id`, `created_at`, `updated_at`, `access_token`) VALUES('Tinu Cleatus', '697049615', '2010-04-23 22:44:47', '2010-04-23 22:44:47', '111604162209107|9a171144881919f1c25392d3-697049615|tDSUCanN81ApdC_Yeu_V33jix0s.')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/oauth/post_auth/5
+Completed in 1603ms (DB: 3) | 302 Found [http://localhost/oauth/callback?code=9a171144881919f1c25392d3-697049615%7CVvl-pqaHsDXKF9xx7vQ2Ocu-q8s.]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#post_auth (for 127.0.0.1 at 2010-04-24 04:14:47) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 5) [0m
+Rendering template within layouts/application
+Rendering oauth/post_auth
+Completed in 6ms (View: 1, DB: 1) | 200 OK [http://localhost/oauth/post_auth/5]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-04-24 04:14:54) [GET]
+Rendering template within layouts/application
+Rendering oauth/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#start (for 127.0.0.1 at 2010-04-24 04:14:55) [GET]
+Redirected to https://graph.facebook.com/oauth/authorize?scope=publish_stream%2C%20offline_access&client_id=111604162209107&type=web_server&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth%2Fcallback
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/oauth/start]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#callback (for 127.0.0.1 at 2010-04-24 04:14:57) [GET]
+  Parameters: {"code"=>"9a171144881919f1c25392d3-697049615|Vvl-pqaHsDXKF9xx7vQ2Ocu-q8s."}
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`access_token` = '111604162209107|9a171144881919f1c25392d3-697049615|tDSUCanN81ApdC_Yeu_V33jix0s.') LIMIT 1[0m
+Redirected to http://localhost:3000/oauth/post_auth/5
+Completed in 1533ms (DB: 2) | 302 Found [http://localhost/oauth/callback?code=9a171144881919f1c25392d3-697049615%7CVvl-pqaHsDXKF9xx7vQ2Ocu-q8s.]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#post_auth (for 127.0.0.1 at 2010-04-24 04:14:59) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 5) [0m
+Rendering template within layouts/application
+Rendering oauth/post_auth
+Completed in 7ms (View: 2, DB: 2) | 200 OK [http://localhost/oauth/post_auth/5]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#post_auth (for 127.0.0.1 at 2010-04-24 04:20:01) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 5) [0m
+Rendering template within layouts/application
+Rendering oauth/post_auth
+Completed in 11ms (View: 6, DB: 2) | 200 OK [http://localhost/oauth/post_auth/5]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#post_auth (for 127.0.0.1 at 2010-04-24 04:20:13) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 5) [0m
+Rendering template within layouts/application
+Rendering oauth/post_auth
+Completed in 10ms (View: 5, DB: 2) | 200 OK [http://localhost/oauth/post_auth/5]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#post_auth (for 127.0.0.1 at 2010-04-24 04:38:49) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mUser Columns (17.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 5) [0m
+Rendering template within layouts/application
+Rendering oauth/post_auth
+Completed in 65ms (View: 43, DB: 18) | 200 OK [http://localhost/oauth/post_auth/5]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#post_auth (for 127.0.0.1 at 2010-04-24 04:38:50) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mUser Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 5) [0m
+Rendering template within layouts/application
+Rendering oauth/post_auth
+Completed in 9ms (View: 2, DB: 2) | 200 OK [http://localhost/oauth/post_auth/5]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#post_to_feed (for 127.0.0.1 at 2010-04-24 04:39:01) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"L2/bWbO1rUXlhLz6aHE5dPRl+7V7SvgF/LjmEKoP22s=", "id"=>"5", "content"=>"test"}
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 5) [0m
+Redirected to http://localhost:3000/oauth/post_auth/5
+Completed in 3381ms (DB: 2) | 302 Found [http://localhost/oauth/post_to_feed/5]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#post_auth (for 127.0.0.1 at 2010-04-24 04:39:04) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 5) [0m
+Rendering template within layouts/application
+Rendering oauth/post_auth
+Completed in 9ms (View: 3, DB: 2) | 200 OK [http://localhost/oauth/post_auth/5]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#post_auth (for 127.0.0.1 at 2010-04-24 04:39:20) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.8ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 5) [0m
+Rendering template within layouts/application
+Rendering oauth/post_auth
+Completed in 8ms (View: 3, DB: 2) | 200 OK [http://localhost/oauth/post_auth/5]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-04-24 04:41:40) [GET]
+Rendering template within layouts/application
+Rendering oauth/index
+Completed in 49ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-04-24 04:41:41) [GET]
+Rendering template within layouts/application
+Rendering oauth/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#start (for 127.0.0.1 at 2010-04-24 04:41:42) [GET]
+Redirected to https://graph.facebook.com/oauth/authorize?scope=publish_stream%2C%20offline_access&client_id=111604162209107&type=web_server&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth%2Fcallback
+Completed in 84ms (DB: 0) | 302 Found [http://localhost/oauth/start]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#callback (for 127.0.0.1 at 2010-04-24 04:41:55) [GET]
+  Parameters: {"code"=>"9e1bdb35dcf082043d4d0ed6-1345422648|Q_LEKoaZhe385kCxuVesriWSFNE."}
+  [4;36;1mUser Columns (17.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`access_token` = '111604162209107|9e1bdb35dcf082043d4d0ed6-1345422648|uxE6PhR34uapCBy2PCg-cnZzMM8.') LIMIT 1[0m
+{"name"=>"Jeff White", "timezone"=>5.5, "id"=>"1345422648", "last_name"=>"White", "updated_time"=>"2009-02-04T13:30:23+0000", "link"=>"http://www.facebook.com/profile.php?id=1345422648", "first_name"=>"Jeff"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Create (0.2ms)[0m   [0mINSERT INTO `users` (`name`, `facebook_id`, `created_at`, `updated_at`, `access_token`) VALUES('Jeff White', '1345422648', '2010-04-23 23:11:58', '2010-04-23 23:11:58', '111604162209107|9e1bdb35dcf082043d4d0ed6-1345422648|uxE6PhR34uapCBy2PCg-cnZzMM8.')[0m
+  [4;36;1mSQL (53.8ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/oauth/post_auth/6
+Completed in 2747ms (DB: 72) | 302 Found [http://localhost/oauth/callback?code=9e1bdb35dcf082043d4d0ed6-1345422648%7CQ_LEKoaZhe385kCxuVesriWSFNE.]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#post_auth (for 127.0.0.1 at 2010-04-24 04:41:58) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 6) [0m
+Rendering template within layouts/application
+Rendering oauth/post_auth
+Completed in 11ms (View: 6, DB: 3) | 200 OK [http://localhost/oauth/post_auth/6]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#post_to_my_feed (for 127.0.0.1 at 2010-04-24 04:42:24) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"35I0OEgs7g2o0ZxhzGAizGA3E9bMc7JrcFCa6vMNByA=", "id"=>"6", "content"=>"hiii"}
+  [4;35;1mUser Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 6) [0m
+Redirected to http://localhost:3000/oauth/post_auth/6
+Completed in 2534ms (DB: 2) | 302 Found [http://localhost/oauth/post_to_my_feed/6]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#post_auth (for 127.0.0.1 at 2010-04-24 04:42:26) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 6) [0m
+Rendering template within layouts/application
+Rendering oauth/post_auth
+Completed in 8ms (View: 2, DB: 2) | 200 OK [http://localhost/oauth/post_auth/6]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#post_auth (for 127.0.0.1 at 2010-04-24 04:43:55) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 6) [0m
+Rendering template within layouts/application
+Rendering oauth/post_auth
+Completed in 13ms (View: 7, DB: 2) | 200 OK [http://localhost/oauth/post_auth/6]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#post_auth (for 127.0.0.1 at 2010-04-24 04:43:56) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 6) [0m
+Rendering template within layouts/application
+Rendering oauth/post_auth
+Completed in 9ms (View: 3, DB: 2) | 200 OK [http://localhost/oauth/post_auth/6]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#post_to_page (for 127.0.0.1 at 2010-04-24 04:43:58) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"35I0OEgs7g2o0ZxhzGAizGA3E9bMc7JrcFCa6vMNByA=", "id"=>"6", "content"=>"aaaa"}
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 6) [0m
+Redirected to http://localhost:3000/oauth/post_auth/6
+Completed in 2873ms (DB: 2) | 302 Found [http://localhost/oauth/post_to_page/6]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#post_auth (for 127.0.0.1 at 2010-04-24 04:44:01) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 6) [0m
+Rendering template within layouts/application
+Rendering oauth/post_auth
+Completed in 9ms (View: 3, DB: 3) | 200 OK [http://localhost/oauth/post_auth/6]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#post_to_page (for 127.0.0.1 at 2010-04-24 04:44:32) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"35I0OEgs7g2o0ZxhzGAizGA3E9bMc7JrcFCa6vMNByA=", "id"=>"6", "content"=>"asadasdasdssssssssssssssssssss"}
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 6) [0m
+Redirected to http://localhost:3000/oauth/post_auth/6
+Completed in 2267ms (DB: 2) | 302 Found [http://localhost/oauth/post_to_page/6]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#post_auth (for 127.0.0.1 at 2010-04-24 04:44:34) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.9ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 6) [0m
+Rendering template within layouts/application
+Rendering oauth/post_auth
+Completed in 9ms (View: 3, DB: 3) | 200 OK [http://localhost/oauth/post_auth/6]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#post_to_page (for 127.0.0.1 at 2010-04-24 04:45:07) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"35I0OEgs7g2o0ZxhzGAizGA3E9bMc7JrcFCa6vMNByA=", "id"=>"6", "content"=>"vbnvbnvbn"}
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 6) [0m
+#<Facebook::Graph:0x102ead1e0 @result_body="{\"id\":\"108125025894969_111548628885942\"}", @form_data={"message"=>"vbnvbnvbn", "access_token"=>"111604162209107|9e1bdb35dcf082043d4d0ed6-1345422648|uxE6PhR34uapCBy2PCg-cnZzMM8."}>
+Redirected to http://localhost:3000/oauth/post_auth/6
+Completed in 2761ms (DB: 2) | 302 Found [http://localhost/oauth/post_to_page/6]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#post_auth (for 127.0.0.1 at 2010-04-24 04:45:10) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 6) [0m
+Rendering template within layouts/application
+Rendering oauth/post_auth
+Completed in 9ms (View: 4, DB: 2) | 200 OK [http://localhost/oauth/post_auth/6]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#post_to_page (for 127.0.0.1 at 2010-04-24 05:16:12) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"35I0OEgs7g2o0ZxhzGAizGA3E9bMc7JrcFCa6vMNByA=", "id"=>"6", "content"=>"this is from me"}
+  [4;35;1mUser Columns (25.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 6) [0m
+#<Facebook::Graph:0x102ce3e40 @result_body="{\"id\":\"108125025894969_111555035551968\"}", @form_data={"message"=>"this is from me", "access_token"=>"111604162209107|9e1bdb35dcf082043d4d0ed6-1345422648|uxE6PhR34uapCBy2PCg-cnZzMM8."}>
+Redirected to http://localhost:3000/oauth/post_auth/6
+Completed in 2983ms (DB: 26) | 302 Found [http://localhost/oauth/post_to_page/6]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#post_auth (for 127.0.0.1 at 2010-04-24 05:16:15) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.9ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 6) [0m
+Rendering template within layouts/application
+Rendering oauth/post_auth
+Completed in 44ms (View: 38, DB: 2) | 200 OK [http://localhost/oauth/post_auth/6]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-04-24 23:23:19) [GET]
+Rendering template within layouts/application
+Rendering oauth/index
+Completed in 63ms (View: 61, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (12.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100423222033)
+  [4;36;1mSQL (121.5ms)[0m   [0;1mDROP TABLE `users`[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20100423222033'[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (23.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100502075707)
+  [4;36;1mSQL (201.0ms)[0m   [0;1mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `email` varchar(255), `facebook_id` varchar(255), `fb_access_token` text, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (18.9ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100502075707')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (17.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (42.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-05-02 14:40:17) [GET]
+Rendering template within layouts/application
+Rendering oauth/index
+Completed in 680ms (View: 678, DB: 43) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-05-02 14:40:55) [GET]
+Rendering template within layouts/application
+Rendering oauth/index
+Completed in 71ms (View: 69, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#start (for 127.0.0.1 at 2010-05-02 14:40:59) [GET]
+Redirected to https://graph.facebook.com/oauth/authorize?scope=publish_stream%2C%20offline_access&client_id=111604162209107&type=web_server&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth%2Fcallback
+Completed in 1468ms (DB: 0) | 302 Found [http://localhost/oauth/start]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#callback (for 127.0.0.1 at 2010-05-02 14:41:31) [GET]
+  Parameters: {"code"=>"2e65fe8ef314a431e5444df9-1134513482|91cu7tCj_AqXX2nsj8uinSXd9LM."}
+  [4;36;1mUser Columns (34.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (40.7ms)[0m   [0mSHOW TABLES[0m
+
+NoMethodError (undefined method `find_by_access_token' for #<Class:0x102922b30>):
+  app/controllers/oauth_controller.rb:15:in `callback'
+
+Rendered rescues/_trace (95.6ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#callback (for 127.0.0.1 at 2010-05-02 14:41:52) [GET]
+  Parameters: {"code"=>"2e65fe8ef314a431e5444df9-1134513482|91cu7tCj_AqXX2nsj8uinSXd9LM."}
+  [4;36;1mUser Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`fb_access_token` = '111604162209107|2e65fe8ef314a431e5444df9-1134513482|VtpgFmKHQAQs1KDxuKiy8Xlh7tA.') LIMIT 1[0m
+WARNING: Can't mass-assign these protected attributes: fb_access_token
+  [4;36;1mSQL (0.4ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+Redirected to http://localhost:3000/oauth/post_auth
+Completed in 2531ms (DB: 2) | 302 Found [http://localhost/oauth/callback?code=2e65fe8ef314a431e5444df9-1134513482%7C91cu7tCj_AqXX2nsj8uinSXd9LM.]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#post_auth (for 127.0.0.1 at 2010-05-02 14:41:54) [GET]
+Rendering template within layouts/application
+Rendering oauth/post_auth
+Completed in 24ms (View: 23, DB: 0) | 200 OK [http://localhost/oauth/post_auth]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-05-02 14:45:25) [GET]
+Rendering template within layouts/application
+Rendering oauth/index
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#start (for 127.0.0.1 at 2010-05-02 14:45:27) [GET]
+Redirected to https://graph.facebook.com/oauth/authorize?scope=publish_stream%2C%20offline_access&client_id=111604162209107&type=web_server&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth%2Fcallback
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/oauth/start]
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#callback (for 127.0.0.1 at 2010-05-02 14:45:42) [GET]
+  Parameters: {"code"=>"2e65fe8ef314a431e5444df9-1134513482|91cu7tCj_AqXX2nsj8uinSXd9LM."}
+{"name"=>"Kim Ben", "timezone"=>5.5, "id"=>"1134513482", "last_name"=>"Ben", "updated_time"=>"2009-04-03T17:07:48+0000", "link"=>"http://www.facebook.com/profile.php?id=1134513482", "first_name"=>"Kim"}
+  [4;36;1mUser Columns (24.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`facebook_id` = '1134513482') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`facebook_id` = BINARY '1134513482') LIMIT 1[0m
+  [4;36;1mSQL (31.0ms)[0m   [0;1mROLLBACK[0m
+Redirected to http://localhost:3000/oauth/post_auth
+Completed in 1570ms (DB: 57) | 302 Found [http://localhost/oauth/callback?code=2e65fe8ef314a431e5444df9-1134513482%7C91cu7tCj_AqXX2nsj8uinSXd9LM.]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#post_auth (for 127.0.0.1 at 2010-05-02 14:45:44) [GET]
+Rendering template within layouts/application
+Rendering oauth/post_auth
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/oauth/post_auth]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-05-02 14:52:44) [GET]
+Rendering template within layouts/application
+Rendering oauth/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-05-02 14:52:45) [GET]
+Rendering template within layouts/application
+Rendering oauth/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#start (for 127.0.0.1 at 2010-05-02 14:52:47) [GET]
+Redirected to https://graph.facebook.com/oauth/authorize?scope=publish_stream%2C%20offline_access%2C%20email&client_id=111604162209107&type=web_server&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth%2Fcallback
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/oauth/start]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#callback (for 127.0.0.1 at 2010-05-02 14:52:59) [GET]
+  Parameters: {"code"=>"2e65fe8ef314a431e5444df9-1134513482|91cu7tCj_AqXX2nsj8uinSXd9LM."}
+{"name"=>"Kim Ben", "timezone"=>5.5, "id"=>"1134513482", "last_name"=>"Ben", "updated_time"=>"2009-04-03T17:07:48+0000", "link"=>"http://www.facebook.com/profile.php?id=1134513482", "email"=>"tinupc@yahoo.com", "first_name"=>"Kim"}
+  [4;35;1mUser Columns (32.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`facebook_id` = '1134513482') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`facebook_id` = BINARY '1134513482') LIMIT 1[0m
+  [4;35;1mUser Create (0.2ms)[0m   [0mINSERT INTO `users` (`name`, `facebook_id`, `created_at`, `fb_access_token`, `updated_at`, `email`) VALUES('Kim Ben', '1134513482', '2010-05-02 09:23:00', '111604162209107|2e65fe8ef314a431e5444df9-1134513482|VtpgFmKHQAQs1KDxuKiy8Xlh7tA.', '2010-05-02 09:23:00', NULL)[0m
+  [4;36;1mSQL (65.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/oauth/post_auth
+Completed in 1630ms (DB: 98) | 302 Found [http://localhost/oauth/callback?code=2e65fe8ef314a431e5444df9-1134513482%7C91cu7tCj_AqXX2nsj8uinSXd9LM.]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#post_auth (for 127.0.0.1 at 2010-05-02 14:53:00) [GET]
+Rendering template within layouts/application
+Rendering oauth/post_auth
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/oauth/post_auth]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#post_auth (for 127.0.0.1 at 2010-05-02 14:54:12) [GET]
+Rendering template within layouts/application
+Rendering oauth/post_auth
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/oauth/post_auth]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-05-02 14:54:15) [GET]
+Rendering template within layouts/application
+Rendering oauth/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-05-02 14:57:13) [GET]
+Rendering template within layouts/application
+Rendering oauth/index
+  [4;35;1mUser Columns (12.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Completed in 41ms (View: 27, DB: 13) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#post_to_fb (for 127.0.0.1 at 2010-05-02 14:57:15) [GET]
+Rendering template within layouts/application
+Rendering oauth/post_to_fb
+Completed in 30ms (View: 28, DB: 0) | 200 OK [http://localhost/oauth/post_to_fb]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#post_to_my_feed (for 127.0.0.1 at 2010-05-02 14:57:37) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"0DHMA10O55zJJDtq0g0vsQWAXWEbzXaeGfIuxRA7mcU=", "content"=>"test"}
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+
+NoMethodError (undefined method `access_token' for #<User:0x1030a7b08>):
+  app/controllers/oauth_controller.rb:41:in `post_to_my_feed'
+  lib/facebook.rb:11:in `call'
+  lib/facebook.rb:11:in `initialize'
+  app/controllers/oauth_controller.rb:40:in `new'
+  app/controllers/oauth_controller.rb:40:in `post_to_my_feed'
+
+Rendered rescues/_trace (30.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#post_to_my_feed (for 127.0.0.1 at 2010-05-02 14:57:57) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"0DHMA10O55zJJDtq0g0vsQWAXWEbzXaeGfIuxRA7mcU=", "content"=>"test"}
+  [4;35;1mUser Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Redirected to http://localhost:3000/oauth/post_to_fb
+Completed in 2871ms (DB: 2) | 302 Found [http://localhost/oauth/post_to_my_feed]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#post_to_fb (for 127.0.0.1 at 2010-05-02 14:58:00) [GET]
+Rendering template within layouts/application
+Rendering oauth/post_to_fb
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/oauth/post_to_fb]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (29.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100502075707)
+Migrating to AddFbPageIdUsers (20100502092836)
+  [4;36;1mSQL (231.5ms)[0m   [0;1mALTER TABLE `users` ADD `fb_page_id` varchar(255)[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100502092836')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (16.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-05-02 15:02:19) [GET]
+Rendering template within layouts/application
+Rendering oauth/index
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Completed in 80ms (View: 77, DB: 2) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-05-02 15:04:21) [GET]
+Rendering template within layouts/application
+Rendering oauth/index
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Completed in 8ms (View: 5, DB: 2) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:04:22) [GET]
+Rendering template within layouts/application
+Rendering oauth/post_to_fb
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #11 of app/views/oauth/post_to_fb.html.erb:
+8: 
+9: <% if current_user.fb_page_id.blank? %>
+10: 
+11:     <% form_for @user do |f| %>
+12:         <%= f.label :fb_page_id %>
+13:         <%= f.text_field :fb_page_id %>
+14:         <%= f.submit %>
+
+    app/views/oauth/post_to_fb.html.erb:11
+
+Rendered rescues/_trace (37.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:04:44) [GET]
+Rendering template within layouts/application
+Rendering oauth/post_to_fb
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Completed in 85ms (View: 81, DB: 2) | 200 OK [http://localhost/oauth/post_to_fb]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:04:54) [GET]
+Rendering template within layouts/application
+Rendering oauth/post_to_fb
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Completed in 15ms (View: 12, DB: 2) | 200 OK [http://localhost/oauth/post_to_fb]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:05:41) [GET]
+Rendering template within layouts/application
+Rendering oauth/post_to_fb
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Completed in 16ms (View: 12, DB: 2) | 200 OK [http://localhost/oauth/post_to_fb]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:13:14) [GET]
+
+ActionController::UnknownAction (No action responded to post_to_fb. Actions: callback, current_user, logged_in?, login_required, redirect_to_target_or_default, and start):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:13:21) [GET]
+  [4;35;1mUser Columns (32.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 48ms (View: 10, DB: 33) | 200 OK [http://localhost/users/post_to_fb]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:13:58) [GET]
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 83ms (View: 10, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:14:08) [GET]
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 16ms (View: 9, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:14:19) [GET]
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+ERROR: compiling _run_erb_app47views47users47post_to_fb46html46erb RAISED compile error
+/Users/Tinu/Projects/Rails/SampleApps/fb_graph/app/views/users/post_to_fb.html.erb:13: syntax error, unexpected ')', expecting tCOLON2 or '[' or '.'
+....concat(( f.submit, "Submit" ).to_s); @output_buffer.concat ...
+                              ^
+Function body:           def _run_erb_app47views47users47post_to_fb46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h3>Post to feed</h3>\n"
+;  form_tag post_to_my_feed_users_path do ; @output_buffer.concat "\n    <p>"
+; @output_buffer.concat(( text_area_tag "content" ).to_s); @output_buffer.concat "</p>\n    <p>"
+; @output_buffer.concat(( text_field_tag "link" ).to_s); @output_buffer.concat "</p>\n    <p>"
+; @output_buffer.concat(( submit_tag "Submit" ).to_s); @output_buffer.concat "</p>\n"
+;  end ; @output_buffer.concat "\n\n<h3>Post to page</h3>\n"
+
+
+;  if current_user.fb_page_id.blank? ; @output_buffer.concat "\n    "
+;  form_for current_user do |f| ; @output_buffer.concat "\n        <p>"
+; @output_buffer.concat(( f.label :fb_page_id, "Facebook Page ID" ).to_s); @output_buffer.concat "</p>\n        <p>"
+; @output_buffer.concat(( f.text_field :fb_page_id ).to_s); @output_buffer.concat "</p>\n        <p>"
+; @output_buffer.concat(( f.submit, "Submit" ).to_s); @output_buffer.concat "</p>\n    "
+;  end ; @output_buffer.concat "\n"
+;  else ; @output_buffer.concat "\n    "
+;  form_tag post_to_my_page_users_path do ; @output_buffer.concat "    \n        <p>"
+; @output_buffer.concat(( text_area_tag "content" ).to_s); @output_buffer.concat "</p>\n        <p>"
+; @output_buffer.concat(( text_field_tag "link" ).to_s); @output_buffer.concat "</p>\n        <p>"
+; @output_buffer.concat(( submit_tag "Submit" ).to_s); @output_buffer.concat "</p>\n    "
+;  end ; @output_buffer.concat "\n"
+;  end ; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/Tinu/Projects/Rails/SampleApps/fb_graph/app/views/users/post_to_fb.html.erb:24:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/Tinu/Projects/Rails/SampleApps/fb_graph/app/views/users/post_to_fb.html.erb:13: syntax error, unexpected ')', expecting tCOLON2 or '[' or '.'
+....concat(( f.submit, "Submit" ).to_s); @output_buffer.concat ...
+                              ^) on line #13 of app/views/users/post_to_fb.html.erb:
+10:     <% form_for current_user do |f| %>
+11:         <p><%= f.label :fb_page_id, "Facebook Page ID" %></p>
+12:         <p><%= f.text_field :fb_page_id %></p>
+13:         <p><%= f.submit, "Submit" %></p>
+14:     <% end %>
+15: <% else %>
+16:     <% form_tag post_to_my_page_users_path do %>    
+
+    app/views/users/post_to_fb.html.erb:24:in `compile!'
+
+Rendered rescues/_trace (34.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:14:23) [GET]
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 84ms (View: 79, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:14:49) [GET]
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 16ms (View: 10, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:14:54) [GET]
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 15ms (View: 8, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:15:13) [GET]
+  [4;35;1mUser Columns (27.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (18.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 59ms (View: 9, DB: 46) | 200 OK [http://localhost/users/post_to_fb]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:15:33) [GET]
+  [4;35;1mUser Columns (2.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 17ms (View: 10, DB: 3) | 200 OK [http://localhost/users/post_to_fb]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:15:40) [GET]
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 15ms (View: 9, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:15:45) [GET]
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 16ms (View: 10, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:15:49) [GET]
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 16ms (View: 9, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:15:52) [GET]
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 15ms (View: 9, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:15:55) [GET]
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 16ms (View: 10, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:16:00) [GET]
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 16ms (View: 10, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:16:06) [GET]
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 15ms (View: 9, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:16:29) [GET]
+  [4;35;1mUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (1.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 16ms (View: 9, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:16:34) [GET]
+  [4;35;1mUser Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 15ms (View: 9, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:16:41) [GET]
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 15ms (View: 9, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:16:53) [GET]
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 15ms (View: 9, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:17:01) [GET]
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (1.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 83ms (View: 10, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:17:06) [GET]
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 15ms (View: 9, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:17:12) [GET]
+  [4;35;1mUser Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 16ms (View: 9, DB: 3) | 200 OK [http://localhost/users/post_to_fb]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:17:20) [GET]
+  [4;35;1mUser Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 15ms (View: 9, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:17:33) [GET]
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 11ms (View: 5, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:17:44) [GET]
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 14ms (View: 9, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:17:45) [GET]
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 11ms (View: 5, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:17:53) [GET]
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 16ms (View: 10, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:17:56) [GET]
+  [4;35;1mUser Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 15ms (View: 9, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:18:16) [GET]
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 15ms (View: 9, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:20:03) [GET]
+  [4;35;1mUser Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 42ms (View: 10, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:20:03) [GET]
+  [4;35;1mUser Columns (33.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 44ms (View: 5, DB: 34) | 200 OK [http://localhost/users/post_to_fb]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_my_feed (for 127.0.0.1 at 2010-05-02 15:20:17) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"0DHMA10O55zJJDtq0g0vsQWAXWEbzXaeGfIuxRA7mcU=", "content"=>"my blog", "link"=>"http://blog.tinucleatus.com"}
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Redirected to http://localhost:3000/users/post_to_fb
+Completed in 5406ms (DB: 2) | 302 Found [http://localhost/users/post_to_my_feed]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:20:23) [GET]
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 11ms (View: 5, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-05-02 15:21:31) [PUT]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"0DHMA10O55zJJDtq0g0vsQWAXWEbzXaeGfIuxRA7mcU=", "id"=>"1", "user"=>{"fb_page_id"=>"108352959205296"}}
+  [4;35;1mUser Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (23.1ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`facebook_id` = BINARY '1134513482' AND `users`.id <> 1) LIMIT 1[0m
+  [4;35;1mUser Update (6.2ms)[0m   [0mUPDATE `users` SET `updated_at` = '2010-05-02 09:51:31', `fb_page_id` = '108352959205296' WHERE `id` = 1[0m
+  [4;36;1mSQL (23.6ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/users/post_to_fb
+Completed in 64ms (DB: 55) | 302 Found [http://localhost/users/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:21:31) [GET]
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_my_page (for 127.0.0.1 at 2010-05-02 15:21:46) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"0DHMA10O55zJJDtq0g0vsQWAXWEbzXaeGfIuxRA7mcU=", "content"=>"THIS IS A TEST", "link"=>"http://blog.tinucleatus.com"}
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Redirected to http://localhost:3000/users/post_to_fb
+Completed in 2425ms (DB: 2) | 302 Found [http://localhost/users/post_to_my_page]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:21:49) [GET]
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:21:58) [GET]
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 11ms (View: 4, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-05-02 15:22:04) [GET]
+Rendering template within layouts/application
+Rendering oauth/index
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+
+ActionView::TemplateError (undefined local variable or method `oauth_post_to_fb_path' for #<ActionView::Base:0x1030a84e0>) on line #5 of app/views/oauth/index.html.erb:
+2: 
+3: <% if logged_in? %>
+4:     <p>You are logged in as <%= current_user.email %></p>
+5:     <p><%= link_to "Post to Facebook", oauth_post_to_fb_path %></p>
+6: <% else %>
+7:     <p><%= link_to "Auth with FB", oauth_authorize_path %></p>
+8: <% end %>
+
+    app/views/oauth/index.html.erb:5
+
+Rendered rescues/_trace (34.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-05-02 15:22:25) [GET]
+Rendering template within layouts/application
+Rendering oauth/index
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Completed in 12ms (View: 8, DB: 2) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-05-02 15:22:39) [GET]
+Rendering template within layouts/application
+Rendering oauth/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-05-02 15:22:52) [GET]
+Rendering template within layouts/application
+Rendering oauth/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-05-02 15:22:58) [GET]
+Rendering template within layouts/application
+Rendering oauth/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#start (for 127.0.0.1 at 2010-05-02 15:22:59) [GET]
+Redirected to https://graph.facebook.com/oauth/authorize?scope=publish_stream%2C%20offline_access%2C%20email&client_id=111604162209107&type=web_server&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth%2Fcallback
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/oauth/start]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#callback (for 127.0.0.1 at 2010-05-02 15:23:15) [GET]
+  Parameters: {"code"=>"2e65fe8ef314a431e5444df9-1134513482|91cu7tCj_AqXX2nsj8uinSXd9LM."}
+{"name"=>"Kim Ben", "timezone"=>5.5, "id"=>"1134513482", "last_name"=>"Ben", "updated_time"=>"2009-04-03T17:07:48+0000", "link"=>"http://www.facebook.com/profile.php?id=1134513482", "email"=>"tinupc@yahoo.com", "first_name"=>"Kim"}
+  [4;35;1mUser Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`facebook_id` = '1134513482') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`facebook_id` = BINARY '1134513482') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'tinupc@yahoo.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO `users` (`name`, `facebook_id`, `created_at`, `fb_page_id`, `fb_access_token`, `updated_at`, `email`) VALUES('Kim Ben', '1134513482', '2010-05-02 09:53:17', NULL, '111604162209107|2e65fe8ef314a431e5444df9-1134513482|VtpgFmKHQAQs1KDxuKiy8Xlh7tA.', '2010-05-02 09:53:17', 'tinupc@yahoo.com')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed in 2154ms (DB: 3) | 302 Found [http://localhost/oauth/callback?code=2e65fe8ef314a431e5444df9-1134513482%7C91cu7tCj_AqXX2nsj8uinSXd9LM.]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-05-02 15:23:17) [GET]
+Rendering template within layouts/application
+Rendering oauth/index
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+Completed in 8ms (View: 5, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:23:23) [GET]
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.8ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 12ms (View: 5, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_my_feed (for 127.0.0.1 at 2010-05-02 15:23:34) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"HyoLD6cdHo1IUyNPJJrotK0GBh2V757v75eel6r3lys=", "content"=>"TEST", "link"=>"http://smokingapples.com"}
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+Redirected to http://localhost:3000/users/post_to_fb
+Completed in 4572ms (DB: 2) | 302 Found [http://localhost/users/post_to_my_feed]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:23:39) [GET]
+  [4;36;1mUser Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 11ms (View: 5, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-05-02 15:23:50) [PUT]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"HyoLD6cdHo1IUyNPJJrotK0GBh2V757v75eel6r3lys=", "id"=>"2", "user"=>{"fb_page_id"=>"108352959205296"}}
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`facebook_id` = BINARY '1134513482' AND `users`.id <> 2) LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'tinupc@yahoo.com' AND `users`.id <> 2) LIMIT 1[0m
+  [4;35;1mUser Update (0.2ms)[0m   [0mUPDATE `users` SET `updated_at` = '2010-05-02 09:53:50', `fb_page_id` = '108352959205296' WHERE `id` = 2[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/users/post_to_fb
+Completed in 10ms (DB: 3) | 302 Found [http://localhost/users/2]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:23:50) [GET]
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 10ms (View: 5, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_my_page (for 127.0.0.1 at 2010-05-02 15:24:00) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"HyoLD6cdHo1IUyNPJJrotK0GBh2V757v75eel6r3lys=", "content"=>"TEST", "link"=>"http://smokingapples.com"}
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+Redirected to http://localhost:3000/users/post_to_fb
+Completed in 2654ms (DB: 2) | 302 Found [http://localhost/users/post_to_my_page]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:24:02) [GET]
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 11ms (View: 4, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:25:26) [GET]
+
+NameError (undefined local variable or method `login_url' for #<UsersController:0x102b06c58>):
+  lib/authentication.rb:34:in `login_required'
+
+Rendered rescues/_trace (94.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:25:28) [GET]
+
+NameError (undefined local variable or method `login_url' for #<UsersController:0x102f0b2b8>):
+  lib/authentication.rb:34:in `login_required'
+
+Rendered rescues/_trace (29.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:26:01) [GET]
+Redirected to http://localhost:3000/
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 1ms (DB: 0) | 302 Found [http://localhost/users/post_to_fb]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-05-02 15:26:01) [GET]
+Rendering template within layouts/application
+Rendering oauth/index
+Completed in 136ms (View: 134, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#start (for 127.0.0.1 at 2010-05-02 15:26:05) [GET]
+Redirected to https://graph.facebook.com/oauth/authorize?scope=publish_stream%2C%20offline_access%2C%20email&client_id=111604162209107&type=web_server&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth%2Fcallback
+Completed in 91ms (DB: 0) | 302 Found [http://localhost/oauth/start]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#callback (for 127.0.0.1 at 2010-05-02 15:26:16) [GET]
+  Parameters: {"code"=>"2e65fe8ef314a431e5444df9-1134513482|91cu7tCj_AqXX2nsj8uinSXd9LM."}
+  [4;36;1mUser Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`facebook_id` = '1134513482') LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed in 2168ms (DB: 2) | 302 Found [http://localhost/oauth/callback?code=2e65fe8ef314a431e5444df9-1134513482%7C91cu7tCj_AqXX2nsj8uinSXd9LM.]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-05-02 15:26:18) [GET]
+Rendering template within layouts/application
+Rendering oauth/index
+  [4;36;1mUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+Completed in 8ms (View: 5, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:26:22) [GET]
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 121ms (View: 115, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:32:26) [GET]
+  [4;36;1mUser Columns (25.4ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (1.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 3723ms (View: 9, DB: 27) | 200 OK [http://localhost/users/post_to_fb]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:33:03) [GET]
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.8ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 3642ms (View: 9, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:33:30) [GET]
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.8ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 2997ms (View: 5, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:34:07) [GET]
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.8ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+"{\"id\":\"108352959205296\",\"name\":\"New test page\",\"link\":\"http:\\/\\/www.facebook.com\\/pages\\/New-test-page\\/108352959205296\",\"category\":\"Local_business\"}"
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 3432ms (View: 4, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:36:17) [GET]
+  [4;36;1mUser Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+{"name"=>"New test page", "category"=>"Local_business", "id"=>"108352959205296", "link"=>"http://www.facebook.com/pages/New-test-page/108352959205296"}
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 3512ms (View: 5, DB: 3) | 200 OK [http://localhost/users/post_to_fb]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_my_feed (for 127.0.0.1 at 2010-05-02 15:36:48) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"o5YksLHxtrPIRUm7q0BKXIq66pqM2LdkKFRvHnshH2I=", "content"=>"TEST", "link"=>"http://blog.tinucleatus.com"}
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+Redirected to http://localhost:3000/users/post_to_fb
+Completed in 2748ms (DB: 2) | 302 Found [http://localhost/users/post_to_my_feed]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:36:51) [GET]
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.8ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 2899ms (View: 5, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_my_page (for 127.0.0.1 at 2010-05-02 15:37:07) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"o5YksLHxtrPIRUm7q0BKXIq66pqM2LdkKFRvHnshH2I=", "content"=>"TESRDFSD", "link"=>"http://blog.tinucleatus.com"}
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+Redirected to http://localhost:3000/users/post_to_fb
+Completed in 1924ms (DB: 2) | 302 Found [http://localhost/users/post_to_my_page]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:37:09) [GET]
+  [4;36;1mUser Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.8ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 2914ms (View: 4, DB: 3) | 200 OK [http://localhost/users/post_to_fb]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:38:06) [GET]
+  [4;36;1mUser Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 3748ms (View: 33, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:39:10) [GET]
+Redirected to http://localhost:3000/
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/users/post_to_fb]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-05-02 15:39:10) [GET]
+Rendering template within layouts/application
+Rendering oauth/index
+Completed in 26ms (View: 25, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#start (for 127.0.0.1 at 2010-05-02 15:39:12) [GET]
+Redirected to https://graph.facebook.com/oauth/authorize?scope=publish_stream%2C%20offline_access%2C%20email&client_id=111604162209107&type=web_server&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth%2Fcallback
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/oauth/start]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#callback (for 127.0.0.1 at 2010-05-02 15:39:32) [GET]
+  Parameters: {"code"=>"2e65fe8ef314a431e5444df9-1134513482|91cu7tCj_AqXX2nsj8uinSXd9LM."}
+  [4;36;1mUser Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`facebook_id` = '1134513482') LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed in 1530ms (DB: 2) | 302 Found [http://localhost/oauth/callback?code=2e65fe8ef314a431e5444df9-1134513482%7C91cu7tCj_AqXX2nsj8uinSXd9LM.]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-05-02 15:39:34) [GET]
+Rendering template within layouts/application
+Rendering oauth/index
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (1.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+Completed in 9ms (View: 5, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-05-02 15:40:21) [GET]
+Rendering template within layouts/application
+Rendering oauth/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:40:30) [GET]
+Redirected to http://localhost:3000/
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/users/post_to_fb]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-05-02 15:40:30) [GET]
+Rendering template within layouts/application
+Rendering oauth/index
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#start (for 127.0.0.1 at 2010-05-02 15:40:32) [GET]
+Redirected to https://graph.facebook.com/oauth/authorize?scope=publish_stream%2C%20offline_access%2C%20email&client_id=111604162209107&type=web_server&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth%2Fcallback
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/oauth/start]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#callback (for 127.0.0.1 at 2010-05-02 15:40:44) [GET]
+  Parameters: {"code"=>"2e65fe8ef314a431e5444df9-1134513482|91cu7tCj_AqXX2nsj8uinSXd9LM."}
+  [4;36;1mUser Columns (34.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`facebook_id` = '1134513482') LIMIT 1[0m
+Redirected to http://localhost:3000/users/post_to_fb
+Completed in 2166ms (DB: 35) | 302 Found [http://localhost/oauth/callback?code=2e65fe8ef314a431e5444df9-1134513482%7C91cu7tCj_AqXX2nsj8uinSXd9LM.]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:40:46) [GET]
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 3711ms (View: 5, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-05-02 15:41:04) [GET]
+Rendering template within layouts/application
+Rendering oauth/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-05-02 15:41:08) [GET]
+Rendering template within layouts/application
+Rendering oauth/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#start (for 127.0.0.1 at 2010-05-02 15:41:09) [GET]
+Redirected to https://graph.facebook.com/oauth/authorize?scope=publish_stream%2C%20offline_access%2C%20email&client_id=111604162209107&type=web_server&redirect_uri=http%3A%2F%2F127.0.0.1%3A3000%2Foauth%2Fcallback
+Completed in 2ms (DB: 0) | 302 Found [http://127.0.0.1/oauth/start]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-05-02 15:41:27) [GET]
+Rendering template within layouts/application
+Rendering oauth/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-05-02 15:41:28) [GET]
+Rendering template within layouts/application
+Rendering oauth/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#start (for 127.0.0.1 at 2010-05-02 15:41:36) [GET]
+Redirected to https://graph.facebook.com/oauth/authorize?scope=publish_stream%2C%20offline_access%2C%20email&client_id=111604162209107&type=web_server&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth%2Fcallback
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/oauth/start]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#callback (for 127.0.0.1 at 2010-05-02 15:42:09) [GET]
+  Parameters: {"code"=>"9e1bdb35dcf082043d4d0ed6-1345422648|Q_LEKoaZhe385kCxuVesriWSFNE."}
+  [4;36;1mUser Columns (33.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`facebook_id` = '1345422648') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`facebook_id` = BINARY '1345422648') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'tinu.cleatus@boxstuff.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.2ms)[0m   [0mINSERT INTO `users` (`name`, `facebook_id`, `created_at`, `fb_page_id`, `fb_access_token`, `updated_at`, `email`) VALUES('Jeff White', '1345422648', '2010-05-02 10:12:11', NULL, '111604162209107|9e1bdb35dcf082043d4d0ed6-1345422648|uxE6PhR34uapCBy2PCg-cnZzMM8.', '2010-05-02 10:12:11', 'tinu.cleatus@boxstuff.com')[0m
+  [4;36;1mSQL (9.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed in 1536ms (DB: 43) | 302 Found [http://localhost/oauth/callback?code=9e1bdb35dcf082043d4d0ed6-1345422648%7CQ_LEKoaZhe385kCxuVesriWSFNE.]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OauthController#index (for 127.0.0.1 at 2010-05-02 15:42:11) [GET]
+Rendering template within layouts/application
+Rendering oauth/index
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+Completed in 8ms (View: 5, DB: 2) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:42:14) [GET]
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+
+JSON::ParserError (A JSON text must at least contain two octets!):
+  /Library/Ruby/Gems/1.8/gems/json_pure-1.2.3/lib/json/common.rb:128:in `initialize'
+  /Library/Ruby/Gems/1.8/gems/json_pure-1.2.3/lib/json/common.rb:128:in `new'
+  /Library/Ruby/Gems/1.8/gems/json_pure-1.2.3/lib/json/common.rb:128:in `parse'
+  lib/facebook.rb:13:in `initialize'
+  app/controllers/users_controller.rb:7:in `new'
+  app/controllers/users_controller.rb:7:in `post_to_fb'
+
+Rendered rescues/_trace (31.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:42:58) [GET]
+  [4;35;1mUser Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 12ms (View: 4, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-05-02 15:43:28) [PUT]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"soscJFF56fuKBnJxl02F4/vWZ58NFLOGamhLNxzyU20=", "id"=>"3", "user"=>{"fb_page_id"=>"108125025894969"}}
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`facebook_id` = BINARY '1345422648' AND `users`.id <> 3) LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'tinu.cleatus@boxstuff.com' AND `users`.id <> 3) LIMIT 1[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2010-05-02 10:13:28', `fb_page_id` = '108125025894969' WHERE `id` = 3[0m
+  [4;35;1mSQL (77.7ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/users/post_to_fb
+Completed in 109ms (DB: 80) | 302 Found [http://localhost/users/3]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:43:28) [GET]
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 6031ms (View: 5, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_my_feed (for 127.0.0.1 at 2010-05-02 15:44:02) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"soscJFF56fuKBnJxl02F4/vWZ58NFLOGamhLNxzyU20=", "content"=>"testtttt", "link"=>"http://blog.tinucleatus.com"}
+  [4;36;1mUser Columns (25.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+Redirected to http://localhost:3000/users/post_to_fb
+Completed in 2032ms (DB: 26) | 302 Found [http://localhost/users/post_to_my_feed]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:44:04) [GET]
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 4422ms (View: 4, DB: 2) | 200 OK [http://localhost/users/post_to_fb]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_my_page (for 127.0.0.1 at 2010-05-02 15:44:22) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"soscJFF56fuKBnJxl02F4/vWZ58NFLOGamhLNxzyU20=", "content"=>"test", "link"=>"http://blog.tinucleatus.com"}
+  [4;36;1mUser Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+Redirected to http://localhost:3000/users/post_to_fb
+Completed in 1922ms (DB: 2) | 302 Found [http://localhost/users/post_to_my_page]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#post_to_fb (for 127.0.0.1 at 2010-05-02 15:44:24) [GET]
+  [4;36;1mUser Columns (4.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+Rendering template within layouts/application
+Rendering users/post_to_fb
+Completed in 4103ms (View: 5, DB: 5) | 200 OK [http://localhost/users/post_to_fb]

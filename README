@@ -1,0 +1,5 @@
+* Sample Rails app to authenticate with Facebook
+* Post to user's feed
+* Post to page feed
+
+NOTE: Be sure to set the facebook application id and secret in config/app_config.yml

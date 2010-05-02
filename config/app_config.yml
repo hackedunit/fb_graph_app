@@ -1,0 +1,10 @@
+development:
+  domain: localhost:3000
+  fb_app_id: your_facebook_app_id
+  fb_app_secret: your_facebook_appl_secret
+
+test:
+  domain: test.host
+
+production:
+  domain: example.com
